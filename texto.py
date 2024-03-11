@@ -25,4 +25,6 @@ print(nome.capitalize())
 print(nome.title())
 
 margem = lucro / faturamento
-print(f"Faturamento: R$ {faturamento:.2f}\n Custo: R$ {custo:.2f}\n Lucro: R$ {lucro:.0%}")
+print(f"Faturamento: R$ {faturamento:.2f}\n Custo: R$ {custo:.2f}\n Lucro: R$ {lucro}")
+print(f"Margem: {margem:.0%}")
+
